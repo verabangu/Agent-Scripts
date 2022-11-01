@@ -1,0 +1,35 @@
+#!bin/bash
+
+#Author:Vera
+#Date:24 oct 2022
+#Description:Installation of some parkages
+
+
+apt install sysstat -y
+if [ $? -eq 0 ]
+
+then
+echo "sysstat  parkage installed successfully"
+else
+echo "sysstat parkage not installed, please double check and try again"
+fi
+apt install wget -y
+apt install net-tools -y
+apt install gcc -y
+apt install make -y
+apt install python3 -y
+apt install git -y
+
+echo "installation complete"
+
+
+
+
+
+
+
+
+
+
+
+
